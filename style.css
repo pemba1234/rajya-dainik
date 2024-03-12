@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+.logo i {
+    color: aliceblue;
+    padding: 20px;
+}
+
+li {
+    padding: 20px;
+}
+
+.bottom-header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li:hover{
+    background-color: red;
+}
+
+nav ul {
+    display: flex;
+}
+
+.top-header-logo img{
+    margin-left: 90px;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.bottom-header {
+    display: flex;
+    background-color: rgb(42, 42, 159);
+    border-width: 100%;
+    width: 100%;
+    height: auto;   
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    margin-bottom: 2rem;
+    overflow: auto;
+}
+
+.logos ul{
+    color: aliceblue;
+    display: flex;
+}
+
+.logos li{
+    display: block;
+    padding: 20px;
+}
+
+.logos li:hover {
+    background-color: red;
+}
+
+.logo:hover {
+    background-color: red;
+}
+
+/* News section*/
+
+.news-header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    margin: 0 90px 50px 90px;
+}
+
+hr {
+    margin: 0 100px 0 100px;
+}
+
+.log{
+    float: right;
+    display: flex;
+    margin:0 100px 0 0;
+}
+
+#facebook,#twitter,#paste {
+    color: white;
+    font-size: 10px;
+    padding:7px;
+}
+
+#facebook {
+    background-color: rgb(29, 29, 120);
+}
+
+#twitter {
+    background-color: skyblue;
+}
+
+#paste {
+    background-color: black;
+}
+
+.add img{
+    width:100%;
+    height:auto;
+}
+
+.news,.adver img{
+    margin: 30px 150px 30px 0px;
+    margin-left: 100px;
+    width: 700px;
+    border:none;
+    box-shadow: 0 0 10px 0px;
+}
+
+
+
+.news img{
+    width: 100%;
+    height: auto;
+}
+
+/* footer */
+
+
+
+article {
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    margin:30px 0 100px 0;
+}
+
+.artical {
+    border:1px solid;
+    width:300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.artical img {
+    width: 100%;
+    height:auto;
+}
+
+.third img {
+    height: 150px;
+}
+
+.r-post {
+    border-top :1px solid black;
+    border-bottom: 1px solid black;
+    margin:0px 50px 0px 50px;
+    padding: 1rem;
+    color:rgb(115, 115, 220) ;
+    background-color: rgb(235, 251, 254);
+}
